@@ -1,0 +1,24 @@
+{
+  "name": "bastelbot/php-common",
+  "type": "library",
+  "description": "some generic helper classes",
+  "keywords": ["php","common"],
+  "homepage": "https://github.com/Bastelbot/php-common",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Robert Böser",
+          "email": "code@bastelbot.de",
+          "homepage": "https://github.com/Bastelbot",
+          "role": "Developer"
+      }
+  ],
+  "require": {
+      "php": ">=7.4.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "Bastelbot\\Common\\": "src"
+      }
+  }
+}
